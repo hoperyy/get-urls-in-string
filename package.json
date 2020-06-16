@@ -1,0 +1,15 @@
+{
+  "name": "get-urls-in-string",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "scripts": {
+    "dev": "q run dev-daily",
+    "prepublishOnly": "q run build-daily"
+  },
+  "author": "",
+  "license": "",
+  "qute-scaffold": "qute-scaffold",
+  "devDependencies": {
+    "qute-cli": "^1.0.4"
+  }
+}

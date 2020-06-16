@@ -1,0 +1,6 @@
+.git/
+.idea/
+node_modules/
+src
+qute.config.js
+.DS_Store
