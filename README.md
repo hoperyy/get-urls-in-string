@@ -1,17 +1,10 @@
-## 项目名称
+UMD: getUrlsInString
 
-## 项目介绍
+```js
+import getUrlsInString from 'get-urls-in-string';
 
-## 项目人员
+const matches = getUrlsInString(`This is url: https://www.google.com/ blabla...`);
 
-## 目录结构
-
+console.log(matches); // [ 'https://www.google.com/' ]
 ```
-pages/  （入口，必须命名为 pages）
-	index/   首页（页面名称，可修改）
-		modules/ 各个模块
-		routes/ 子页面
-		index.html
-		index.js（入口文件，且必须命名为 index.js）
-		index.less
-```
+
