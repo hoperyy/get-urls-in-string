@@ -6,7 +6,7 @@
     "dev": "q run dev-daily",
     "prepublishOnly": "q run build-daily"
   },
-  "author": "",
+  "author": "hoperyy",
   "license": "",
   "qute-scaffold": "qute-scaffold",
   "devDependencies": {
