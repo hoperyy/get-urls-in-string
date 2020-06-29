@@ -30,8 +30,8 @@ module.exports = ({ userFolder, srcFolder, buildFolder, currentEnv, webpack, web
             const to = path.join(buildFolder, 'index.js');
 
             fse.copySync(from, to);
-            fse.removeSync(path.join(buildFolder, 'pages'));
-            fse.removeSync(path.join(buildFolder, 'static'));
+            // fse.removeSync(path.join(buildFolder, 'pages'));
+            // fse.removeSync(path.join(buildFolder, 'static'));
         }
     };
 };
