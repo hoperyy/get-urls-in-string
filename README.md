@@ -1,3 +1,5 @@
+## USE
+
 UMD: getUrlsInString
 
 ```js
@@ -32,3 +34,6 @@ console.log(matches);
 */
 ```
 
+## LICENSE
+
+MIT

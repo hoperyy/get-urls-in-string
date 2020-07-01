@@ -1,9 +1,10 @@
 {
   "name": "get-urls-in-string",
-  "version": "2.0.1",
+  "version": "2.0.2",
   "main": "dist/index.js",
   "scripts": {
     "dev": "q run dev-daily",
+    "build": "q run dev-daily",
     "prepublishOnly": "q run build-daily"
   },
   "author": "hoperyy",
